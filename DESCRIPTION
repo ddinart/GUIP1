@@ -1,0 +1,30 @@
+Package: GUIP1
+Type: Package
+Title: Graphical User Interface for Phase I Designs
+Version: 0.1.0
+Author: D. Dinart, J. Fraisse, Y. Laghzali, D. Tosi, A. Mauguen, C. Touraine, M.C. Le Deley, C. Bellera and C. Mollevi
+Maintainer: DINART D <d.dinart@bordeaux.unicancer.fr> 
+Description: Provides graphical user interfaces for several model-guided adaptive designs (CRM, TITE-CRM, EWOC, TITE-EWOC).
+Imports: 
+    dfcrm,
+    bcrm,
+    tcltk,
+    tcltk2,
+    tkrplot,
+    gridExtra,
+    sp,
+    stringr,
+    magrittr,
+    ggplot2,
+    rjags,
+    glue (>= 1.2.0)
+Suggests: 
+    R2WinBUGS,
+    knitr,
+    rmarkdown,
+    openxlsx
+VignetteBuilder: knitr
+License: GPL (>=2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
